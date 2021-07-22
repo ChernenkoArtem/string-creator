@@ -1,0 +1,13 @@
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  .text{
+    font-size: 20px;
+    &.palindrome{
+      color: red;
+    }
+    &.numbers {
+      color: blue;
+    }
+  }
+}
